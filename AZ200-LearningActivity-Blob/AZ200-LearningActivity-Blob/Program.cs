@@ -13,7 +13,7 @@ namespace AZ200_LearningActivity_Blob
             Console.WriteLine("Hello World!");
 
 
-            string _sasConnectionString = "DefaultEndpointsProtocol=https;AccountName=linuxazlab722huxll466xi;AccountKey=O/Z6eBqAMwL8a+bV0IOLYYVXYZ71B0NmLALmrVk6YGysqKFWCWlY/vQdSkKQ0pCEquwkF5MkR4oRaigAOGHh3Q==;EndpointSuffix=core.windows.net";
+            string _sasConnectionString = "";
             CloudStorageAccount account = CloudStorageAccount.Parse(_sasConnectionString);
 
             CloudBlobClient client = account.CreateCloudBlobClient();
