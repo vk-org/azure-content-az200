@@ -1,1 +1,1 @@
-# azure-content-az200
+# Content for the Azure AZ200 course
